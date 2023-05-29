@@ -5,6 +5,9 @@
 This repository is the official implementation of [CamoDiffusion: Camouflaged Object Detection via
 Conditional Diffusion Models](). 
 
+Code coming soon!
+And we provide our inference result in release.
+
 [//]: # (>📋  Optional: include a graphic explaining your approach/main result, bibtex entry, link to demos, blog posts and tutorials)
 
 ## Requirements
