@@ -1,0 +1,37 @@
+train_dataset:
+  name: dataset.data_val.PolypObjDataset
+  params:
+    image_root: '/media/datatset/COD10K/TrainDataset/Imgs/'
+    gt_root: '/media/datatset/COD10K/TrainDataset/GT/'
+    trainsize: 352
+
+test_dataset:
+  COD10K:
+    name: dataset.data_val.test_dataset
+    params:
+      image_root: '/media/datatset/COD10K/TestDataset/COD10K/Imgs/'
+      gt_root: '/media/datatset/COD10K/TestDataset/COD10K/GT/'
+      testsize: 352
+  CAMO:
+    name: dataset.data_val.test_dataset
+    params:
+      image_root: '/media/datatset/COD10K/TestDataset/CAMO/Imgs/'
+      gt_root: '/media/datatset/COD10K/TestDataset/CAMO/GT/'
+      testsize: 352
+  CHAMELEON:
+    name: dataset.data_val.test_dataset
+    params:
+      image_root: '/media/datatset/COD10K/TestDataset/CHAMELEON/Imgs/'
+      gt_root: '/media/datatset/COD10K/TestDataset/CHAMELEON/GT/'
+      testsize: 352
+  NC4K:
+    name: dataset.data_val.test_dataset
+    params:
+      image_root: '/media/datatset/COD10K/TestDataset/NC4K/Imgs/'
+      gt_root: '/media/datatset/COD10K/TestDataset/NC4K/GT/'
+      testsize: 352
+  CDS2K:
+    name: dataset.cds2k_dataset.cds2K_dataset
+    params:
+      root: '/media/datatset/CDS2K'
+      testsize: 352

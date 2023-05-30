@@ -1,0 +1,6 @@
+project_name: CamoDiffusion
+
+__base__:
+  - config/camoDiffusion_384x384.yaml
+
+train_val_forward_fn: "model.train_val_forward.modification_train_val_forward_e"
