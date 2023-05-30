@@ -5,8 +5,9 @@
 This repository is the official implementation of [CamoDiffusion: Camouflaged Object Detection via
 Conditional Diffusion Models](). 
 
-Code coming soon!
-And we provide our inference result in release.
+Our implementation is based on the denoising diffusion repository from <a href="https://github.com/lucidrains/denoising-diffusion-pytorch">lucidrains</a>, which is a PyTorch implementation of <a href="https://arxiv.org/abs/2006.11239">DDPM</a>.
+
+And we provide our pretrained weight and inference result in release.
 
 [//]: # (>📋  Optional: include a graphic explaining your approach/main result, bibtex entry, link to demos, blog posts and tutorials)
 
