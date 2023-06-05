@@ -67,4 +67,11 @@ bash scripts/eval.sh
 ## Citation
 
 [//]: # (>📋  Pick a licence and describe how to contribute to your code repository. )
-None.
+```
+@article{chen2023camodiffusion,
+  title={CamoDiffusion: Camouflaged Object Detection via Conditional Diffusion Models},
+  author={Chen, Zhongxi and Sun, Ke and Lin, Xianming and Ji, Rongrong},
+  journal={arXiv preprint arXiv:2305.17932},
+  year={2023}
+}
+```
