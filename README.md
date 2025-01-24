@@ -64,6 +64,12 @@ bash scripts/eval.sh
 [//]: # (>📋  Include a table of results from your paper, and link back to the leaderboard for clarity and context. If your main result is a figure, include that figure and link to the command or notebook to reproduce it. )
 
 
+## Tips
+
+1. To implement the ATCN-Skip strategy, modify the config file by changing `SimpleDiffSeg` to `SimpleDiffSeg_Skip`. This adjustment allows the `ATCN` computation to be skipped every alternate time step, minimizing computational redundancy.
+
+2. The pretrained model weights have been uploaded in the release.
+The pretrained weights for SOD will be uploaded soon.
 ## Citation
 
 [//]: # (>📋  Pick a licence and describe how to contribute to your code repository. )
@@ -73,5 +79,16 @@ bash scripts/eval.sh
   author={Chen, Zhongxi and Sun, Ke and Lin, Xianming and Ji, Rongrong},
   journal={arXiv preprint arXiv:2305.17932},
   year={2023}
+}
+```
+
+
+```
+@article{sun2025conditional,
+  title={Conditional Diffusion Models for Camouflaged and Salient Object Detection},
+  author={Sun, Ke and Chen, Zhongxi and Lin, Xianming and Sun, Xiaoshuai and Liu, Hong and Ji, Rongrong},
+  journal={IEEE Transactions on Pattern Analysis and Machine Intelligence},
+  year={2025},
+  publisher={IEEE}
 }
 ```
